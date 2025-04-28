@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const HomePage = () => {
@@ -37,11 +38,14 @@ const HomePage = () => {
             <p className="mb-8 text-lg">
             We provide smart energy solutions and seamless electricity management to help you stay informed and in control.
             </p>
-            <a href="#about" className="inline-block bg-green-600 text-white px-6 py-3 mb-20  rounded-full shadow-lg hover:bg-green-700 transition">
-            Learn More About Us
-            </a>
+            <Link to="/about">
+              <button className="inline-block bg-green-600 text-white px-6 py-3 mb-20  rounded-full shadow-lg hover:bg-green-700 transition underline">
+                Learn More About Us
+              </button>
+            </Link>
         </div>
         </section>
+
 
         <section className="bg-white py-18 px-6" id="finance-services">
         <div className="max-w-6xl mx-auto text-center">
