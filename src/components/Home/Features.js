@@ -1,6 +1,9 @@
-
+import { useTitle } from "../../hooks/useTitle";
 
 export const Features = () => {
+
+  useTitle('Home');
+
   return (
     <section>
         <div className="min-h-screen bg-white pt-40 px-6 text-gray-800">

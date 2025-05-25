@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTitle } from "../../hooks/useTitle";
 
 export const SystemInformation = () => {
+  useTitle('Info')
   return (
     <div className="min-h-screen bg-green-50">
       <div className="max-w-6xl mx-auto p-6">

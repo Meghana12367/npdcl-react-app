@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTitle } from '../../hooks/useTitle';
 
 export const Employees = ({ employees, setEmployees }) => {
+  useTitle('EmployeeManagement')
   const [showAddModal, setShowAddModal] = useState(false);
   const [employeeToDelete, setEmployeeToDelete] = useState(null);
   const [showEditModal, setShowEditModal] = useState(false);

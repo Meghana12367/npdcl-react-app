@@ -10,8 +10,11 @@ import { Outages } from "../../components/admin";
 import { SystemInformation } from "../../components/admin/SystemInformation";
 import { Tabs } from "../../components/admin";
 
+import { useTitle } from "../../hooks/useTitle";
+
 
 export const AdminDashBoard = () => {
+  useTitle('AdminDashboard');
 
   const navigate = useNavigate();
 

@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
+import { useTitle } from "../../hooks/useTitle";
 
 export const Billing = ({ summaryData, recentPayments }) => {
+  useTitle('Billing');
   const navigate = useNavigate();
 
   return (

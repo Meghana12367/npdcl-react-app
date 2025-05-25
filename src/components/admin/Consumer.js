@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTitle } from '../../hooks/useTitle';
 
 export const Consumer = ({ allConsumers, setAllConsumers }) => {
+  useTitle('Consumers');
   const [showAddModal, setShowAddModal] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
   const [consumerToDelete, setConsumerToDelete] = useState(null);

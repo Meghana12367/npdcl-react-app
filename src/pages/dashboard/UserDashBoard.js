@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import { useTitle } from "../../hooks/useTitle";
 
 export const UserDashBoard = () => {
+
+  useTitle('Userdashboard');
 
   const user = JSON.parse(localStorage.getItem('user'));
 
@@ -257,7 +260,7 @@ export const UserDashBoard = () => {
           </div>
         )}
         
-        {activeTab === 'consumption' && (
+        {activeTab === 'consumption' && ( 
           <div>
             <h2 className="text-xl font-semibold mb-6">Consumption Details</h2>
             
