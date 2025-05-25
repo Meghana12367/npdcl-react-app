@@ -1,7 +1,7 @@
 // AboutUs.js
 import React from 'react';
 
-const AboutPage = () => {
+export const AboutPage = () => {
   return (
     
         
@@ -95,4 +95,3 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;

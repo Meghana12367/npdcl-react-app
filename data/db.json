@@ -1,0 +1,529 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user@npdcl.com",
+      "password": "user123",
+      "role": "User"
+    },
+    {
+      "id": "2",
+      "email": "admin@npdcl.com",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "id": "bd09",
+      "email": "meghanareddi44@gmail.com",
+      "password": "Meghana123",
+      "firstName": "Meghana",
+      "lastName": "Mulka",
+      "name": "Meghana Mulka",
+      "phone": "09177488903",
+      "addresses": [
+        "H:No:1-12-125/4/A1 Sreenagar colony, Vinayak nagar"
+      ],
+      "zipCode": "503001",
+      "country": "India",
+      "role": "admin"
+    },
+    {
+      "id": "26c6",
+      "email": "revanthreddy44@gmail.com",
+      "password": "Meghana123",
+      "firstName": "Revanth Reddy",
+      "lastName": "Mulka",
+      "name": "Revanth Reddy Mulka",
+      "phone": "09177488903",
+      "addresses": [
+        "H:No:1-12-125/4/A1 Sreenagar colony, Vinayak nagar"
+      ],
+      "zipCode": "503001",
+      "country": "India",
+      "role": "user"
+    },
+    {
+      "id": "2f9d",
+      "email": "monajideepureddy28@gmail.com",
+      "password": "deepu123",
+      "firstName": "DEEPU",
+      "lastName": "REDDY",
+      "name": "DEEPU REDDY",
+      "phone": "9959587103",
+      "addresses": [
+        "H:No:1-12-125/4/A1 Sreenagar colony, Vinayak nagar"
+      ],
+      "zipCode": "503001",
+      "country": "India",
+      "role": "user"
+    }
+  ],
+  "user": {
+    "consumerId": "NPDCL-1234567890",
+    "userName": "John Doe",
+    "currentBillAmount": 2450,
+    "currentUnits": 280,
+    "dueDate": "20 May 2025",
+    "billStatus": "Unpaid"
+  },
+  "lastPayment": {
+    "amount": 2100,
+    "date": "10 Apr 2025",
+    "receiptNo": "REC-9834752"
+  },
+  "connectionDetails": {
+    "meterNo": "E-45678902",
+    "category": "Domestic",
+    "sanctionedLoad": "2 kW"
+  },
+  "usageHistory": [
+    {
+      "month": "Nov",
+      "units": 210,
+      "amount": 1800,
+      "id": "3248"
+    },
+    {
+      "month": "Dec",
+      "units": 240,
+      "amount": 2050,
+      "id": "c327"
+    },
+    {
+      "month": "Jan",
+      "units": 220,
+      "amount": 1950,
+      "id": "626c"
+    },
+    {
+      "month": "Feb",
+      "units": 200,
+      "amount": 1750,
+      "id": "5075"
+    },
+    {
+      "month": "Mar",
+      "units": 230,
+      "amount": 2100,
+      "id": "5c3f"
+    },
+    {
+      "month": "Apr",
+      "units": 280,
+      "amount": 2450,
+      "id": "c0c2"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "message": "Bill for April 2025 is generated",
+      "isRead": false,
+      "date": "02 May 2025"
+    },
+    {
+      "id": "2",
+      "message": "Power outage scheduled on 10 May from 10AM-2PM for maintenance",
+      "isRead": false,
+      "date": "01 May 2025"
+    },
+    {
+      "id": "3",
+      "message": "Payment received for March 2025",
+      "isRead": true,
+      "date": "10 Apr 2025"
+    }
+  ],
+  "summaryData": {
+    "adminName": "Priya Sharma",
+    "adminRole": "Senior Administrator",
+    "totalConsumers": 15420,
+    "newConsumersToday": 37,
+    "todayRevenue": 582340,
+    "paymentCount": 214,
+    "activeComplaints": 42,
+    "newComplaintsToday": 7,
+    "totalBilled": 8750000,
+    "totalCollected": 7420000,
+    "totalPending": 1330000,
+    "defaulters": 248,
+    "recentActivity": [
+      {
+        "time": "09:15 AM",
+        "type": "payment",
+        "user": "Rajesh Kumar",
+        "details": "Paid current bill of ₹1850"
+      },
+      {
+        "time": "10:30 AM",
+        "type": "connection",
+        "user": "Anjali Reddy",
+        "details": "New connection request received"
+      },
+      {
+        "time": "11:45 AM",
+        "type": "complaint",
+        "user": "Suresh Naidu",
+        "details": "Power outage complaint registered"
+      }
+    ],
+    "alerts": [
+      {
+        "severity": "high",
+        "message": "Critical power grid maintenance required in Zone 3"
+      },
+      {
+        "severity": "medium",
+        "message": "Overdue bill collection in suburban areas"
+      }
+    ],
+    "activeOutages": [
+      {
+        "area": "Sector 12, New Town",
+        "reason": "Transformer Maintenance",
+        "affectedConsumers": 512,
+        "startTime": "08:30 AM",
+        "estimatedResolution": "02:00 PM"
+      }
+    ],
+    "scheduledOutages": [
+      {
+        "area": "Riverside Colony",
+        "date": "15 May 2025",
+        "startTime": "10:00 AM",
+        "endTime": "02:00 PM",
+        "reason": "Underground cable replacement"
+      }
+    ],
+    "defaultersList": [
+      {
+        "consumerId": "NPDCL-2025-0123",
+        "name": "Vikram Singh",
+        "amountDue": 5670,
+        "dueSince": "30 Mar 2025"
+      },
+      {
+        "consumerId": "NPDCL-2025-0456",
+        "name": "Meera Patel",
+        "amountDue": 3450,
+        "dueSince": "15 Apr 2025"
+      }
+    ]
+  },
+  "allConsumers": [
+    {
+      "id": "bba5",
+      "consumerId": "NPDCL-2025-0123",
+      "name": "Meera Patel",
+      "connectionType": "Residential",
+      "area": "Sector 12, New Town",
+      "status": "Active"
+    },
+    {
+      "id": "5a43",
+      "consumerId": "NPDCL-2025-0789",
+      "name": "Anjali Reddy",
+      "connectionType": "Industrial",
+      "area": "Manufacturing Zone",
+      "status": "Pending"
+    },
+    {
+      "id": "21e5",
+      "consumerId": "NPDCL-2025-0567",
+      "name": "Rajesh Kumar",
+      "connectionType": "Commercial",
+      "area": "Tech Park",
+      "status": "Inactive"
+    },
+    {
+      "id": "7189",
+      "consumerId": "NPDCL-2025-1902",
+      "name": "Vikram Singh",
+      "connectionType": "Residential",
+      "area": "Sector 12, New Town",
+      "status": "Active"
+    },
+    {
+      "id": "cef9",
+      "consumerId": "NPDCL-2025-0567",
+      "name": "Meghana Mulka",
+      "connectionType": "Industrial",
+      "area": "Nizamabad",
+      "status": "Inactive"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-101",
+      "name": "Ravi Sharma",
+      "role": "Technician",
+      "zone": "East Zone",
+      "contact": "9876543210",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-102",
+      "name": "Neha Verma",
+      "role": "Supervisor",
+      "zone": "West Zone",
+      "contact": "9876543211",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-103",
+      "name": "Amit Joshi",
+      "role": "Electrician",
+      "zone": "North Zone",
+      "contact": "9876543212",
+      "status": "Inactive"
+    },
+    {
+      "id": "EMP-104",
+      "name": "Meghana Mulka",
+      "role": "Technician",
+      "zone": "zone5",
+      "contact": "9177488903",
+      "status": "Inactive"
+    }
+  ],
+  "recentPayments": [
+    {
+      "transactionId": "TXN-2025-0123",
+      "consumerName": "Rajesh Kumar",
+      "consumerId": "NPDCL-2025-0123",
+      "amount": 1850,
+      "date": "15 Apr 2025",
+      "paymentMode": "UPI",
+      "status": "Success",
+      "id": "bbdd"
+    },
+    {
+      "transactionId": "TXN-2025-0456",
+      "consumerName": "Anjali Reddy",
+      "consumerId": "NPDCL-2025-0457",
+      "amount": 4500,
+      "date": "10 Apr 2025",
+      "paymentMode": "Net Banking",
+      "status": "Success",
+      "id": "0be0"
+    },
+    {
+      "transactionId": "TXN-2025-0789",
+      "consumerName": "Meera Patel",
+      "consumerId": "NPDCL-2025-0234",
+      "amount": 2750,
+      "date": "05 Apr 2025",
+      "paymentMode": "Credit Card",
+      "status": "Failed",
+      "id": "9032"
+    }
+  ],
+  "outageReports": [
+    {
+      "reportId": "OR-2025-0123",
+      "area": "Sector 12, New Town",
+      "issueType": "Power Failure",
+      "reporterName": "Rajesh Kumar",
+      "consumerId": "NPDCL-2025-0123",
+      "reportedAt": "15 Apr 2025, 09:15 AM",
+      "id": "4539"
+    },
+    {
+      "reportId": "OR-2025-0456",
+      "area": "Riverside Colony",
+      "issueType": "Voltage Fluctuation",
+      "reporterName": "Meera Patel",
+      "consumerId": "NPDCL-2025-0234",
+      "reportedAt": "12 Apr 2025, 02:30 PM",
+      "id": "92c1"
+    },
+    {
+      "reportId": "OR-2025-0789",
+      "area": "Downtown Business Park",
+      "issueType": "Transformer Malfunction",
+      "reporterName": "Anjali Reddy",
+      "consumerId": "NPDCL-2025-0456",
+      "reportedAt": "10 Apr 2025, 11:45 AM",
+      "id": "d5d5"
+    }
+  ],
+  "scheduledOutages": [
+    {
+      "id": "10af",
+      "area": "Sector 12, New Town",
+      "date": "15 May 2025",
+      "startTime": "7:47 pm",
+      "endTime": "9:30 pm",
+      "reason": "Transformer Repair"
+    },
+    {
+      "id": "",
+      "area": "Nizamabad",
+      "date": "25 May 2025",
+      "startTime": "10:00 AM",
+      "endTime": "9:30 pm",
+      "reason": "Transformer Maintenance"
+    }
+  ],
+  "complaints": [
+    {
+      "ticketId": "CMP-2025-0123",
+      "consumerName": "Rajesh Kumar",
+      "subject": "Incorrect Billing",
+      "date": "15 Apr 2025",
+      "status": "New",
+      "priority": "Medium",
+      "id": "d1a7"
+    },
+    {
+      "ticketId": "CMP-2025-0456",
+      "consumerName": "Anjali Reddy",
+      "subject": "Repeated Power Outages",
+      "date": "12 Apr 2025",
+      "status": "In Progress",
+      "priority": "High",
+      "id": "a55c"
+    },
+    {
+      "ticketId": "CMP-2025-0789",
+      "consumerName": "Meera Patel",
+      "subject": "Meter Reading Discrepancy",
+      "date": "10 Apr 2025",
+      "status": "Resolved",
+      "priority": "Low",
+      "id": "562b"
+    }
+  ],
+  "appliances": [
+    {
+      "name": "Refrigerator",
+      "avgConsumption": 150,
+      "energyClass": "5-Star",
+      "tips": "Keep it full and clean coils regularly.",
+      "id": "1907"
+    },
+    {
+      "name": "Air Conditioner",
+      "avgConsumption": 1200,
+      "energyClass": "4-Star",
+      "tips": "Use in energy saver mode and clean filters.",
+      "id": "d85d"
+    },
+    {
+      "name": "Washing Machine",
+      "avgConsumption": 500,
+      "energyClass": "3-Star",
+      "tips": "Use full loads and cold water cycles.",
+      "id": "0cf2"
+    },
+    {
+      "name": "Ceiling Fan",
+      "avgConsumption": 75,
+      "energyClass": "5-Star",
+      "tips": "Use efficient BLDC fans.",
+      "id": "ec7e"
+    },
+    {
+      "name": "Television",
+      "avgConsumption": 120,
+      "energyClass": "5-Star",
+      "tips": "Turn off completely when not in use.",
+      "id": "e3f3"
+    },
+    {
+      "name": "Laptop",
+      "avgConsumption": 60,
+      "energyClass": "5-Star",
+      "tips": "Use battery saver mode and unplug charger when full.",
+      "id": "ee44"
+    }
+  ],
+  "tariffs": {
+    "residential": [
+      {
+        "id": 1,
+        "name": "Basic Residential",
+        "rate": 5.75,
+        "fixedCharge": 50,
+        "applicable": "All residential consumers",
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "name": "Premium Residential",
+        "rate": 6.5,
+        "fixedCharge": 75,
+        "applicable": "Houses > 2000 sq.ft",
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "name": "Economy Saver",
+        "rate": 4.9,
+        "fixedCharge": 40,
+        "applicable": "Low-income households",
+        "status": "inactive"
+      },
+      {
+        "name": "Economy Saver",
+        "rate": 5,
+        "fixedCharge": 100,
+        "applicable": "Households",
+        "status": "active",
+        "id": 10
+      }
+    ],
+    "commercial": [
+      {
+        "id": 4,
+        "name": "Small Business",
+        "rate": 8.25,
+        "fixedCharge": 200,
+        "applicable": "Businesses < 5000 sq.ft",
+        "status": "active"
+      },
+      {
+        "id": 5,
+        "name": "Commercial Pro",
+        "rate": 9.75,
+        "fixedCharge": 500,
+        "applicable": "Medium enterprises",
+        "status": "active"
+      },
+      {
+        "name": "large business",
+        "rate": 3,
+        "fixedCharge": 90,
+        "applicable": "large enterprises",
+        "status": "active",
+        "id": 9
+      }
+    ],
+    "industrial": [
+      {
+        "id": 6,
+        "name": "Industrial Basic",
+        "rate": 7.8,
+        "fixedCharge": 1000,
+        "applicable": "Small industries",
+        "status": "active"
+      },
+      {
+        "id": 7,
+        "name": "Industrial Plus",
+        "rate": 8.9,
+        "fixedCharge": 2500,
+        "applicable": "Large manufacturing",
+        "status": "inactive"
+      },
+      {
+        "name": "Industrial ",
+        "rate": 3,
+        "fixedCharge": 56,
+        "applicable": "Medium scale industries",
+        "status": "active",
+        "id": 8
+      }
+    ]
+  }
+}

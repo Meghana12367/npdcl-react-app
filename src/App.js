@@ -1,28 +1,29 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import LoginPage from './components/LoginPage';
-import BillManagementPage from './pages/BillManagementPage';
-import AboutPage from './components/AboutPage';
+
+import { ScrollToTop } from './components/common/ScrollToTop';
+
+import { BrowserRouter} from 'react-router-dom';
+import Header from './components/common/Header';
+import { Footer } from './components/common/Footer';
+import {AllRoutes} from './routes/AllRoutes';
+import NotificationDrawer from './components/common/NotificationDrawer';
+
+
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
+    <ScrollToTop />
       <Header />
-      <div className="flex flex-col min-h-screen">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/bill-management" element={<BillManagementPage />} />
-          <Route path="/about" element={<AboutPage />} />
-        </Routes>
-      </div>
+      <AllRoutes />
+      <NotificationDrawer />
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 };
 
 export default App;
+
+
+
